@@ -125,7 +125,7 @@ class Jetpack(Backpack):
         if self.fuel ==0:
             print("Not enough fuel!")
     def dump(self):
-        """Remove 'item' from the backpack's list of contents and all fuel
+        """Remove 'item' from the list of contents and all fuel
         from the tank"""
         self.contents=list()
         self.fuel=list()
