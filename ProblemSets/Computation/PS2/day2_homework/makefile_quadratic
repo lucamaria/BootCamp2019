@@ -1,0 +1,12 @@
+#######################################################################
+all: Quadratic_Equation.x 
+#######################################################################
+
+## Example 1
+Quadratic_Equation.x : Quadratic_Equation.cpp
+	g++ Quadratic_Equation.cpp -o Quadratic_Equation.x
+
+#######################################################################
+
+clean :
+	rm -f *.x
